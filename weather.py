@@ -1,4 +1,5 @@
 import requests
+
 from rich import print
 def weather():
     city = input("Enter the name of city: ")
@@ -13,3 +14,5 @@ def weather():
     except Exception as e:
         print(f"[red]Error:[/red] {e}")
  
+ 
+weather() 
