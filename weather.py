@@ -1,6 +1,6 @@
 import requests
 from rich import print
-def weather(city):
+def weather():
     city = input("Enter the name of city: ")
     url = f"https://wttr.in/{city}?format=3"
 
